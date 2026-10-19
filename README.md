@@ -2,7 +2,7 @@
 
 This project lets you run **OmniCoder-9B Q4** on Kaggle's free GPU notebooks and use it from VS Code through the Continue extension.
 
-The idea is pretty simple: use Kaggle's dual Tesla T4 GPUs to run the model remotely, then connect to it from your local VS Code installation. That way, you can use the model for coding questions, inline edits, and other tasks without running it on your own hardware.
+Basically: use Kaggle's dual Tesla T4 GPUs to run the model remotely, then connect to it from your local VS Code installation. That way, you can use the model for coding questions, inline edits, and other tasks without running it on your own hardware.
 
 The setup uses Ollama to serve the model and ngrok to expose the server so Continue can connect to it. It also uses an 8-bit KV cache (`q8_0`) to reduce memory usage when working with longer prompts.
 
