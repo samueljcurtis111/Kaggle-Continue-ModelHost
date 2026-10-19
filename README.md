@@ -81,6 +81,7 @@ print("="*50)
 ### Step 4: Continue config
 
 Go into the config YAML file 
+
 WINDOWS:
 ```
 %USERPROFILE%\.continue\config.yaml
